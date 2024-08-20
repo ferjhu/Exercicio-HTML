@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout com Flexbox</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh; 
+        }
+
+        .box {
+            flex: 1; 
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .box1 {
+            background-color: #da00f7; 
+        }
+
+        .box2 {
+            background-color: #22bfef; 
+        }
+
+        .box3 {
+            background-color: #e82594; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">caixinha 1</div>
+        <div class="box box2">caixinha 2</div>
+        <div class="box box3">caixinha 3</div>
+    </div>
+</body>
+</html>

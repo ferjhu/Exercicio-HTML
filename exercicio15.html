@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Zebra</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #00000089;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>linha 1</th>
+                <th>linha 3</th>
+                <th>linha 4</th>
+                <th>linha 2</th>
+            </tr>
+            <tr>
+                <td>linha 1</td>
+                <td>linha 2</td>
+                <td>linha 3</td>
+                <td>linha 4</td>
+            </tr>
+            <tr>
+                <td>linha 1</td>
+                <td>linha 2</td>
+                <td>linha 3</td>
+                <td>linha 4</td>
+            </tr>
+        </thead>
